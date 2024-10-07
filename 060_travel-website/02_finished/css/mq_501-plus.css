@@ -25,7 +25,7 @@ header {
     height: 8.5rem;
 
     /*
-    header is already set to "display: flex" in main.css
+    header is already set to "display: flex" in main1.css
     setting it here again just for clarity
     */
     /* make child elements of header arrange in a column */
@@ -46,7 +46,7 @@ header {
     flex-grow: 4;
 
     /*
-    "height: 100%" was set on #logo in main.css
+    "height: 100%" was set on #logo in main1.css
     we need to set "flex-basis: 0" to override this
     */
     flex-basis: 0;
